@@ -1,0 +1,30 @@
+
+.form-control-custom { text-align: center; font-size: 2.4rem; font-family: var(--bs-font-monospace); }
+.form-control-custom-unit { position: absolute; top: 0; right: 1rem; bottom: 0; border: 0; background-color: transparent; opacity: 0.5; font-size: 1.2rem; }
+.form-control-custom.calculated { color: #4190ff; }
+
+/*article > table*/
+.table { background-color: #fff; margin: 0 0 1rem; max-width: 100%; box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%); border-collapse: collapse; width: 100%; }
+.table th { background-color: #2c3e50; border-top: 0; color: #fff; min-width: 60px; font-weight: 400; border-width: .031rem; border-color: #253545; padding: .5rem .5rem; }
+.table td { border-color: rgba(214, 214, 214, .5); border-style: solid; border-width: .031rem; padding: .75rem; vertical-align: top; }
+.table.table-sm th, .table.table-sm td { padding: 0.4rem }
+.form-control { transition: border .1s linear 0s, box-shadow .1s, width .25s, color .2s; border: 1px solid #d5d5d5; box-shadow: 0 1px 3px rgb(50 50 93 / 10%), 0 1px 0 rgb(0 0 0 / 2%); }
+.form-control:focus { border-color: #9fd4fc; box-shadow: 0 0 0 4px rgb(0 149 255 / 15%); background-color: #fffffa; }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+/* Firefox */
+input[type=number] { -moz-appearance: textfield; }
+
+/*button*/
+.btn { border: none; box-shadow: rgba(0, 0, 0, .05) 0px .5px 0px 0px, rgba(0, 0, 0, .08) 0px 0px 0px 1px, rgba(0, 0, 0, .05) 0px 2px 4px 0px; min-width: 50px;}
+.btn:active { position: relative; top: 1px;}
+.btn.btn-success { background-color: #20ca98; }
+.btn.btn-success:hover, .btn.btn-success:focus, .btn.btn-success:active, .btn.btn-success:disabled { background-color: #1cb98b; }
+.btn.btn-success:focus { box-shadow: 0 0 0 0.25rem rgb(60 153 110 / 15%); }
+.btn.btn-primary { background-color: #008eff; }
+.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active { background-color: #007ee2; }
+.btn.btn-primary:active { box-shadow: 0 0 0 3px rgb(49 132 253 / 30%); }
+.btn.selected { background-color: #74d6fe; z-index: 100; cursor: default; }
+.svg-icon { width: 22px; height: 22px; stroke: currentColor; stroke-width: 1; stroke-linecap: round; stroke-linejoin: stroke: #444; round; fill: none; }
